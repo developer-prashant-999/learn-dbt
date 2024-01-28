@@ -14,7 +14,7 @@ models:
     description: The primary key for customer
     columns:
       - name: order_id
-        description: Primary key for orders.
+        description: Primary key for orders. 
         tests:
           - unique
           - not_null
